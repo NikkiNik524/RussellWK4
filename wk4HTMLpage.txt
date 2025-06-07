@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title> Week 4 Lab </title>
+    <style>
+        body {
+            margin-left: 15px;
+            font-family: sans-serif;
+            font-size: 1.3em;
+           
+        }
+        #logo{           
+            width: 100%;
+            position: relative;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 99%;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            font-size: 1 em;
+            display: block;
+            padding: 8px;
+            font-family: sans-serif;
+            color:white;
+        }
+        #nav {
+            display: block;
+            border: 1px solid gray;
+            border-radius: 10px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color:darkgreen;
+        }
+ 
+    </style>
+</head>
+ 
+<body>
+    <!--    Navigation section-->
+    <div id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+    <div id="banner">
+        <img id="logo" src="images/logo.png" alt="logo image of horse">
+    </div>
+    <h2 id="home">Home </h2>
+        <!-- lorem breitzhum text -->
+        <a href="#">this is a link </a>
+    <h2 id="news">News </h2>
+        <!-- lorem breitzhum text -->
+        <a href="#">this is a link </a>
+    <h2 id="news">News </h2>
+        <!-- lorem breitzhum text -->
+        <a href="#">this is a link </a>
+    <h2 id="news">News </h2>
+        <!-- lorem breitzhum text -->
+        <a href="#">this is a link </a>
+       
+</body>
+</html>
